@@ -1,0 +1,162 @@
+{% extends 'skleton.html' %}
+{% block title %}{{title}}{% endblock title %}
+{% block body %}
+<div class="cont-sidebar">
+    <div class="content">
+        <h1 class="video-heading">Learn to Build Mobile App Flutter</h1>
+        <video src="/static/demotut.mp4" id="vid" poster="/static/img/thumbnailDemo.svg" onmouseover="showController(this.id);" onmouseout="showController(this.id);"></video>
+        <div class="video-actions">
+            <div class="actions-leading">
+                <div class="nav-foot profile-photo img-fluid"></div>
+                &nbsp <b class="rate-number" id="rated">1.0</b>
+                <img src="/static/img/star.svg" alt="" class="star">&nbsp&nbsp
+                <input type="range" name="" id="rate" class="slidercus" min="1" max="4" onchange="setRating()" value="1">
+
+            </div>
+            <div class="actions-trailing">
+                <img src="/static/img/save.svg" class="act-icons" title="save">
+                <img src="/static/img/like.svg" class="act-icons" title="like">
+                <img src="/static/img/comment.svg" class="act-icons" title="comment">
+                <img src="/static/img/follow.svg" class="act-icons" title="follow">
+            </div>
+            
+        </div>
+        <h2 class="video-heading">Introduction</h2>
+        <p class="others-cont" align="justify">
+            Before Learning programming lets know, what exactly is programming. In simple language we can say that it is the process of teaching the computer how to work. At the beginning of the evolution of computers (1st Generation Computers), Developer used to program the computer using only 0 and 1, which is the machine level language. Computer only understands 0 and 1. That took vary time program computer for even a single functionality. So that developer started to develop programming languages to program the computer easily. But todays computer understand 0 and 1. Now you may thinking that, Todays programming languages are not only zero and one. So lets understand it clearly, We write the code not in 0 and one but once we run the program it is going to be converted into zero and one.
+        </p>
+        <h2 class="video-heading">Lets Learn in Depth</h2>
+        <p class="others-cont" align="justify">
+            Before Learning programming lets know, what exactly is programming. In simple language we can say that it is the process of teaching the computer how to work. At the beginning of the evolution of computers (1st Generation Computers), Developer used to program the computer using only 0 and 1, which is the machine level language. Computer only understands 0 and 1. That took vary time program computer for even a single functionality. So that developer started to develop programming languages to program the computer easily. But todays computer understand 0 and 1. Now you may thinking that, Todays programming languages are not only zero and one. So lets understand it clearly, We write the code not in 0 and one but once we run the program it is going to be converted into zero and one.
+        </p>
+        <h2 class="video-heading">Conclusion</h2>
+        <p class="others-cont" align="justify">
+            Before Learning programming lets know, what exactly is programming. In simple language we can say that it is the process of teaching the computer how to work. At the beginning of the evolution of computers (1st Generation Computers), Developer used to program the computer using only 0 and 1, which is the machine level language. Computer only understands 0 and 1. That took vary time program computer for even a single functionality. So that developer started to develop programming languages to program the computer easily. But todays computer understand 0 and 1. Now you may thinking that, Todays programming languages are not only zero and one. So lets understand it clearly, We write the code not in 0 and one but once we run the program it is going to be converted into zero and one.
+        </p>
+        <div class="social">
+            <img src="/static/img/github.svg" title="github" class="social-icon"><img src="/static/img/linkedin.svg" title="linkedin" class="social-icon">
+        </div>
+    </div>
+    <div class="side-bar">
+        <h1 class="sugestion-heading">Suggestions</h1>
+        <div class="col">
+            <div class="videoCard videoCard-reco">
+                <img src="/static/img/thumbnailDemo.svg" alt="" class="thumbnail-reco img-fluid">
+                <div class="video-about video-about-reco">
+                    <div class="nav-foot profile-photo profile-photo-reco img-fluid"></div>&nbsp&nbsp
+                    <div class="vid-title-reco">
+                        <b class="title-txt">Learn to build mobile Applications Using Flutter</b>
+                        <div class="rating">
+                            2.4 <img src="/static/img/star.svg" alt="" srcset=""> 2 months ago
+                        </div>
+                        
+                    </div>
+                    <img src="/static/img/option-icon.svg" class="gray-200">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="videoCard videoCard-reco">
+                <img src="/static/img/thumbnailDemo.svg" alt="" class="thumbnail-reco img-fluid">
+                <div class="video-about video-about-reco">
+                    <div class="nav-foot profile-photo profile-photo-reco img-fluid"></div>&nbsp&nbsp
+                    <div class="vid-title-reco">
+                        <b class="title-txt">Learn to build mobile Applications Using Flutter</b>
+                        <div class="rating">
+                            2.4 <img src="/static/img/star.svg" alt="" srcset=""> 2 months ago
+                        </div>
+                        
+                    </div>
+                    <img src="/static/img/option-icon.svg" class="gray-200">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="videoCard videoCard-reco">
+                <img src="/static/img/thumbnailDemo.svg" alt="" class="thumbnail-reco img-fluid">
+                <div class="video-about video-about-reco">
+                    <div class="nav-foot profile-photo profile-photo-reco img-fluid"></div>&nbsp&nbsp
+                    <div class="vid-title-reco">
+                        <b class="title-txt">Learn to build mobile Applications Using Flutter</b>
+                        <div class="rating">
+                            2.4 <img src="/static/img/star.svg" alt="" srcset=""> 2 months ago
+                        </div>
+                        
+                    </div>
+                    <img src="/static/img/option-icon.svg" class="gray-200">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="videoCard videoCard-reco">
+                <img src="/static/img/thumbnailDemo.svg" alt="" class="thumbnail-reco img-fluid">
+                <div class="video-about video-about-reco">
+                    <div class="nav-foot profile-photo profile-photo-reco img-fluid"></div>&nbsp&nbsp
+                    <div class="vid-title-reco">
+                        <b class="title-txt">Learn to build mobile Applications Using Flutter</b>
+                        <div class="rating">
+                            2.4 <img src="/static/img/star.svg" alt="" srcset=""> 2 months ago
+                        </div>
+                        
+                    </div>
+                    <img src="/static/img/option-icon.svg" class="gray-200">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="videoCard videoCard-reco">
+                <img src="/static/img/thumbnailDemo.svg" alt="" class="thumbnail-reco img-fluid">
+                <div class="video-about video-about-reco">
+                    <div class="nav-foot profile-photo profile-photo-reco img-fluid"></div>&nbsp&nbsp
+                    <div class="vid-title-reco">
+                        <b class="title-txt">Learn to build mobile Applications Using Flutter</b>
+                        <div class="rating">
+                            2.4 <img src="/static/img/star.svg" alt="" srcset=""> 2 months ago
+                        </div>
+                        
+                    </div>
+                    <img src="/static/img/option-icon.svg" class="gray-200">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="videoCard videoCard-reco">
+                <img src="/static/img/thumbnailDemo.svg" alt="" class="thumbnail-reco img-fluid">
+                <div class="video-about video-about-reco">
+                    <div class="nav-foot profile-photo profile-photo-reco img-fluid"></div>&nbsp&nbsp
+                    <div class="vid-title-reco">
+                        <b class="title-txt">Learn to build mobile Applications Using Flutter</b>
+                        <div class="rating">
+                            2.4 <img src="/static/img/star.svg" alt="" srcset=""> 2 months ago
+                        </div>
+                        
+                    </div>
+                    <img src="/static/img/option-icon.svg" class="gray-200">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="videoCard videoCard-reco">
+                <img src="/static/img/thumbnailDemo.svg" alt="" class="thumbnail-reco img-fluid">
+                <div class="video-about video-about-reco">
+                    <div class="nav-foot profile-photo profile-photo-reco img-fluid"></div>&nbsp&nbsp
+                    <div class="vid-title-reco">
+                        <b class="title-txt">Learn to build mobile Applications Using Flutter</b>
+                        <div class="rating">
+                            2.4 <img src="/static/img/star.svg" alt="" srcset=""> 2 months ago
+                        </div>
+                        
+                    </div>
+                    <img src="/static/img/option-icon.svg" class="gray-200">
+                </div>
+            </div>
+        </div>
+        
+
+
+    </div>
+</div>
+<script src="/static/js/videohandlers.js"></script>
+<script src="/static/js/text-overflow.js"></script>
+
+{% endblock body %}
